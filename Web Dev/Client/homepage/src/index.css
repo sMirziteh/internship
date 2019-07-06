@@ -1,0 +1,12 @@
+.search {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.toggler {
+  background-color: #85c441;
+}
+
+.collapsedMenu {
+  padding: 10px;
+}

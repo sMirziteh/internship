@@ -138,13 +138,13 @@ const SUform = ({ values, errors, touched, isSubmitting }) => {
             </FormGroup>
             <FormGroup check row>
               <Col sm={{ size: 9, offset: 3 }}>
-                <button
+                <Button
                   type="submit"
                   className="btn btn-primary"
                   disabled={isSubmitting}
                 >
                   Submit
-                </button>
+                </Button>
               </Col>
             </FormGroup>
           </Form>
