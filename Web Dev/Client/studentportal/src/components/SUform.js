@@ -142,6 +142,7 @@ const SUform = ({ values, errors, touched, isSubmitting }) => {
                   type="submit"
                   className="btn btn-primary"
                   disabled={isSubmitting}
+                  style={{ backgroundColor: "rgb(133, 196, 66)" }}
                 >
                   Submit
                 </Button>
