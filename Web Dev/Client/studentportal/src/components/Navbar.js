@@ -43,7 +43,7 @@ export default class Navigation extends Component {
                   style={{ backgroundColor: "#85C441", color: "black" }}
                   variant="outline-secondary"
                 >
-                  <i class="material-icons search">search</i>
+                  <i className="material-icons search">search</i>
                 </Button>
               </InputGroup.Append>
             </InputGroup>
