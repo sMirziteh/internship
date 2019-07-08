@@ -49,18 +49,18 @@ export default class Navigation extends Component {
             </InputGroup>
           </Form>
           <Nav className="navbar">
-            <Nav.Link style={{ color: "white" }} href="#jobs">
-              Jobs
-            </Nav.Link>
-            <Nav.Link style={{ color: "white" }} href="#events">
-              Events
-            </Nav.Link>
-            <Nav.Link style={{ color: "white" }} href="#favs">
-              Favorites
-            </Nav.Link>
-            <Nav.Link style={{ color: "white" }} href="#recs">
-              Recommendations
-            </Nav.Link>
+            <LinkContainer className="navLinks" to="/jobs">
+              <Nav.Link>Jobs</Nav.Link>
+            </LinkContainer>
+            <LinkContainer className="navLinks" to="/events">
+              <Nav.Link>Events</Nav.Link>
+            </LinkContainer>
+            <LinkContainer className="navLinks" to="/favorites">
+              <Nav.Link>Favorites</Nav.Link>
+            </LinkContainer>
+            <LinkContainer className="navLinks" to="/recommended">
+              <Nav.Link>Recommendations</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
