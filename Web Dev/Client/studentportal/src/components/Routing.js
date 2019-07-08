@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Login from "./Login";
 import FormApp from "./SUform";
-import Landing from "./landing";
+import Landing from "./Landing";
 
 const Routing = () => (
   <Switch>

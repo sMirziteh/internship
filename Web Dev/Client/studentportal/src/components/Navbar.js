@@ -12,6 +12,7 @@ import {
   Button,
   InputGroup
 } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 
 export default class Navigation extends Component {
   render() {
@@ -21,15 +22,17 @@ export default class Navigation extends Component {
     };
     return (
       <Navbar expand="lg" style={navstyle}>
-        <Navbar.Brand href="#home" style={{ color: "#ffff" }}>
-          <img
-            alt=""
-            src="/images/puzzleTest.png"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-          />
-        </Navbar.Brand>
+        <LinkContainer to="/">
+          <Navbar.Brand style={{ color: "#ffff" }}>
+            <img
+              alt=""
+              src="/images/puzzleTest.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />
+          </Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle className="toggler" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="collapsedMenu" id="basic-navbar-nav">
           <Form inline>
