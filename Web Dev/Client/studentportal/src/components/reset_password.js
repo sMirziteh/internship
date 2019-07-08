@@ -27,7 +27,7 @@ function SignUp() {
         }
       }
       initialValues={{
-        email: 'given email',
+        email: 'YourEmail@Example.com',
         password: '',
         reenter: '',
         agree: ''
@@ -53,6 +53,7 @@ function SignUp() {
                   type="text" 
                   name="email"
                   value={values.email}
+                  disabled={ true }
                 />
               </Form2.Group>
 
@@ -120,21 +121,6 @@ function SignUp() {
                 </Form2.Control.Feedback>
               </Form2.Group>
 
-              <Form2.Group>
-                <Form2.Check
-                  type="checkbox"
-                  onChange={handleChange}
-                  isInvalid={touched.agree && errors.agree}
-                  onBlur={handleBlur} 
-                  feedback={errors.agree}
-                  label= {["I agree to the ", <a href="">Terms of Use</a>,  " and ", <a href="">Privacy Policy</a>]}
-                  id="agree"
-                />
-                <Form2.Control.Feedback type="invalid">
-                  {errors.agree}
-                </Form2.Control.Feedback>
-              </Form2.Group>
-              
               <Button 
                 type="submit"
                 disabled={
