@@ -32,14 +32,14 @@ class Login extends React.Component {
               <h2> Login </h2>
                  <Form className="form-horizontal">
                     <div className="form-group">
-                       <label className="control-label col-sm-3" htmlFor="email">* Email:</label>
+                       <label className="control-label col-sm-3" htmlFor="email">Email:</label>
                        <div className="col-sm-6">
                        <Field name="email" type="text" className={'form-control' + (errors.email && touched.email ? ' is-invalid' : '')} />
                        <ErrorMessage name="email" component="div" className="alert alert-danger" />
                        </div>
                     </div>
                     <div className="form-group">
-                       <label className="control-label col-sm-3" htmlFor="password">* Password:</label>
+                       <label className="control-label col-sm-3" htmlFor="password">Password:</label>
                        <div className="col-sm-4">
                        <Field name="password" type="password" className={'form-control' + (errors.password && touched.password ? ' is-invalid' : '')} />
                        <ErrorMessage name="password" component="div" className="alert alert-danger" />
