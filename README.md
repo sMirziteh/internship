@@ -1,6 +1,6 @@
 # Computing Kids - Tech Job Board
 
-This is an Entry-level job portal built for Computing Kids during my summer internship
+This is an Entry-level job portal built for Computing Kids during my summer internship as a Frontend Developer and UX/UI Designer
 
 Technologies Used: HTML5, CSS, JavaScript, React, Redux, Azure DevOps, Git, Axure RP, UX Pin
 
